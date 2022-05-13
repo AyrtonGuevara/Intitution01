@@ -1,0 +1,76 @@
+body{
+	margin: 0px;
+	background-color: #9999FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	text-align: justify;
+}
+/*ESTILOS DE LA CABECERA*/
+nav{
+	margin: 0;
+	background-color: #9900FF;
+	padding: 1em;
+
+}
+nav a{
+	padding: 1em;
+}
+.nav_div1, .nav_div2{
+	display: inline-block;
+}
+.nav_div2{
+	float: right;
+}
+.a-p1, .a-p2{
+	text-decoration: none;
+	color: green;
+}
+.a-p1:hover, .a-p2:hover{
+	text-decoration: none;
+	color: blue;
+}
+/*ESTILOS DEL MENU*/
+
+.menu{
+	margin-top: 3vh;
+	float: left;
+	width: 20%;
+  height: 70vh; // experiment with this value, try changing to 110vh
+  min-height: 300px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+}
+.titulo_menu{
+	margin: 1em;
+}
+/*ESTILOS DEL FOOT*/
+.foot{
+	display:inline-block;
+	background-color: blue;
+	width: 100%;
+}
+
+/*ESTILOS DEL CONTENIDO*/
+.contenido{
+	float: right;
+	width: 75%;
+	padding: 1em;
+}
+.contenedor{
+	background-color: red;
+	min-height: 60vh;
+	padding: 1em;
+}
+.titulo_contenedor{
+	text-align: center;
+}
+.elementoform{
+	display: block;
+	margin: 15px;
+}
+.form_main{
+	display: block;
+	align-items: center;
+}
